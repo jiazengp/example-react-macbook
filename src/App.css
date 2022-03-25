@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
