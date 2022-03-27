@@ -20,8 +20,8 @@ const Game = () => {
 
       <World position="fixed" color="transparent" defaultLight="studio" style={{ pointerEvents: "none" }}>
         <Group rotationY={angle}>
-          <Model src="body.glb" />
-          <Model y={-45} z={-35} src="screen.glb" innerY={47} innerZ={-20} rotationX={screenAngle} />
+          <Model src="body.glb" boxVisible={false} />
+          <Model y={-45} z={-35} src="screen.glb" innerY={47} innerZ={-20} rotationX={screenAngle} boxVisible={false} />
         </Group>
         <Camera z={z} active fov={fov} />
       </World>
