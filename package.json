@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@lincode/math": "^1.0.8",
-    "lingo3d-react": "^1.2.59",
+    "lingo3d-react": "^1.2.77",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
