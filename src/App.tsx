@@ -1,9 +1,6 @@
 import './App.css'
 import { Model, World, Camera, Group, useDocumentScroll, useWindowSize, usePreload } from "lingo3d-react"
-import { settings } from "lingo3d"
 import { mapRange } from "@lincode/math"
-
-settings.defaultLight = false
 
 const Game = () => {
   const scroll = useDocumentScroll()
@@ -18,10 +15,10 @@ const Game = () => {
       <div style={{ fontSize: 50, textAlign: "center", marginTop: "50vh" }}>MacBook Pro</div>
       <div style={{ width: "100vw", height: "200vh" }} />
 
-      <World position="fixed" color="transparent" defaultLight="studio" style={{ pointerEvents: "none" }}>
+      <World position="fixed" color="transparent" defaultLight="studio" style={{ pointerEvents: "none" }} exposure={2}>
         <Group rotationY={angle}>
-          <Model src="body.glb" boxVisible={false} />
-          <Model y={-45} z={-35} src="screen.glb" innerY={47} innerZ={-20} rotationX={screenAngle} boxVisible={false} />
+          <Model src="body.glb" boxVisible={false} metalnessFactor={1} roughnessFactor={0.5} />
+          <Model y={-45} z={-35} src="screen.glb" innerY={47} innerZ={-20} rotationX={screenAngle} boxVisible={false} metalnessFactor={1} roughnessFactor={0.5} />
         </Group>
         <Camera z={z} active fov={fov} />
       </World>
