@@ -10,12 +10,12 @@
   "dependencies": {
     "@lincode/math": "^1.0.8",
     "lingo3d-react": "latest",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "18",
+    "react-dom": "18"
   },
   "devDependencies": {
-    "@types/react": "*",
-    "@types/react-dom": "*",
+    "@types/react": "18",
+    "@types/react-dom": "18",
     "@vitejs/plugin-react": "^1.0.7",
     "typescript": "^4.5.4",
     "vite": "^2.8.0"
