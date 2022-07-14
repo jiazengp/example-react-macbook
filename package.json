@@ -10,14 +10,20 @@
   "dependencies": {
     "@lincode/math": "^1.0.8",
     "lingo3d-react": "latest",
-    "react": "18",
-    "react-dom": "18"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "18",
-    "@types/react-dom": "18",
-    "@vitejs/plugin-react": "^1.0.7",
-    "typescript": "^4.5.4",
-    "vite": "^2.8.0"
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^1.3.2",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": false
   }
 }
