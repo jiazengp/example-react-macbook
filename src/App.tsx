@@ -45,6 +45,7 @@ const Game = () => {
         defaultLight="studio"
         style={{ pointerEvents: "none" }}
         exposure={2}
+        logarithmicDepth
       >
         <Group rotationY={angle}>
           {/* laptop body model */}
