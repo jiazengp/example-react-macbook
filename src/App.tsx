@@ -44,7 +44,7 @@ const Game = () => {
         color="transparent"
         defaultLight="studio"
         style={{ pointerEvents: "none" }}
-        exposure={2}
+        exposure={5}
         logarithmicDepth
       >
         <Group rotationY={angle}>
